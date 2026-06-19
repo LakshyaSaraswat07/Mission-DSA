@@ -1,14 +1,6 @@
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
-        """
-        Find the highest altitude reached during a trip.
-      
-        Args:
-            gain: List of altitude gains between consecutive points
-      
-        Returns:
-            The maximum altitude reached during the trip
-        """
+        
         from itertools import accumulate
       
         # Calculate cumulative sum of gains starting from altitude 0
